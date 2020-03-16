@@ -58,6 +58,9 @@
 #include "resource.h"
 #include "D3D11SavedState.h"
 
+#include <algorithm>
+
+
 #define VB(exp) V((exp) ? S_OK : E_FAIL)
 #define VB_RETURN(exp) V_RETURN((exp) ? S_OK : E_FAIL)
 
